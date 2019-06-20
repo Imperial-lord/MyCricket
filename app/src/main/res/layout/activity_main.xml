@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1A237E"
+        android:id="@+id/buttons"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fixtures"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#1A237A"
+            android:id="@+id/fixtures"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Points Table"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#1A237A"
+            android:id="@+id/pts"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="News"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#1A237A"
+            android:id="@+id/news"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ball1"
+        android:scaleType="fitXY"
+        android:id="@+id/image"
+        android:layout_below="@id/buttons"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:text="ICC CRICKET WC 2019"
+        android:gravity="center_horizontal"
+        android:fontFamily="monospace"
+        />
+
+</RelativeLayout>

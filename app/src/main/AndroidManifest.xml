@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.cricket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.news.abhishek.newsapp.PointsTable"
+            android:label="Points Table" />
+        <activity android:name=".NewsExplore" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="News" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FixturesActivity"
+            android:label="Fixtures WC 2019" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

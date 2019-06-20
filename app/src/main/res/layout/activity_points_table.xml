@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5"
+        android:background="#1A237E"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9.5"
+            android:text="TEAM"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="M"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="W"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="L"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="NRR"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="PTS"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#E0E0E0"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/england"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="ENG"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+1.862"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="8"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/australia"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="AUS"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+0.812"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="8"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#E0E0E0"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/newzealand"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="NZ"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+2.163"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="7"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/india"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="IND"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+1.029"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="7"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        android:background="#E0E0E0"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bangladesh"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="BAN"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="-0.270"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="5"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/srilanka"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="SL"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="-1.778"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="4"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        android:background="#E0E0E0"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/westindies"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="WI"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+0.272"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="3"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/southafrica"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="SA"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="-0.208"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="3"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#E0E0E0"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="9"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:layout_marginRight="8dp"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pakistan"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="PAK"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="-1.933"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="3"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="10"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/afghanistan"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="AFG"
+            android:layout_marginLeft="20dp"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:padding="4dp"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="-2.089"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

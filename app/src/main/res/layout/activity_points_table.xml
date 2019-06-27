@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -121,7 +121,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/england"
+            app:srcCompat="@drawable/england"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -223,7 +223,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/australia"
+            app:srcCompat="@drawable/australia"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -325,7 +325,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/newzealand"
+            app:srcCompat="@drawable/newzealand"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -428,7 +428,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/india"
+            app:srcCompat="@drawable/india"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -531,7 +531,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/bangladesh"
+            app:srcCompat="@drawable/bangladesh"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -632,7 +632,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/srilanka"
+            app:srcCompat="@drawable/srilanka"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -735,7 +735,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/westindies"
+            app:srcCompat="@drawable/westindies"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -838,7 +838,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/southafrica"
+            app:srcCompat="@drawable/southafrica"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -942,7 +942,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/pakistan"
+            app:srcCompat="@drawable/pakistan"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />
@@ -1042,7 +1042,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/afghanistan"
+            app:srcCompat="@drawable/afghanistan"
             android:layout_weight="2"
             android:scaleType="fitStart"
             />

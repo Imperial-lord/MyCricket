@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/cardback"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#000"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/wc1983"
+                android:scaleType="fitXY"
+                android:id="@+id/image"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many runs did India make in its historic World Cup win over West Indies in 1983?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:id="@+id/question"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer: "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="183"
+                android:background="#61d800"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:id="@+id/answer"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

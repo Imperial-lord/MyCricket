@@ -3,10 +3,13 @@ package com.example.android.cricket;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.news.abhishek.newsapp.Main3Activity;
+import com.news.abhishek.newsapp.Main4Activity;
+import com.news.abhishek.newsapp.Main5Activity;
 import com.news.abhishek.newsapp.PointsTable;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,6 +58,50 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        Button scorecard=(Button) findViewById(R.id.scorecards);
+
+        scorecard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(MainActivity.this, Main3Activity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
+        Button favorite=(Button) findViewById(R.id.favoriteteam);
+
+        favorite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(MainActivity.this, Main4Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+        Button quizzing=(Button) findViewById(R.id.quizgame);
+
+        quizzing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(MainActivity.this, Main5Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
 
 
 

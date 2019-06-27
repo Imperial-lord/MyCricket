@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/wc2019"
+        app:srcCompat="@drawable/wc2019"
         android:scaleType="fitXY"
         />
 
@@ -36,7 +36,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -142,7 +142,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:layout_weight="1"
                     android:scaleType="fitStart"/>
@@ -267,7 +267,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -459,7 +459,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -574,7 +574,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -691,7 +691,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -810,7 +810,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -921,7 +921,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1032,7 +1032,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1068,7 +1068,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1177,7 +1177,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1261,7 +1261,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1289,7 +1289,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1480,7 +1480,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1516,7 +1516,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1624,7 +1624,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1708,7 +1708,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1736,7 +1736,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1820,7 +1820,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -1850,7 +1850,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -1960,7 +1960,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2044,7 +2044,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2075,7 +2075,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2159,7 +2159,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2192,7 +2192,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2276,7 +2276,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2313,7 +2313,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2397,7 +2397,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2431,7 +2431,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2515,7 +2515,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2549,7 +2549,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2633,7 +2633,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2668,7 +2668,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2752,7 +2752,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2787,7 +2787,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2871,7 +2871,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -2906,7 +2906,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -2990,7 +2990,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3023,7 +3023,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3107,7 +3107,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3142,7 +3142,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3226,7 +3226,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3261,7 +3261,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3345,7 +3345,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3380,7 +3380,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3464,7 +3464,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3498,7 +3498,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3582,7 +3582,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3617,7 +3617,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3701,7 +3701,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3739,7 +3739,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3823,7 +3823,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3860,7 +3860,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -3944,7 +3944,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -3978,7 +3978,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4062,7 +4062,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4097,7 +4097,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4181,7 +4181,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4216,7 +4216,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4300,7 +4300,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4336,7 +4336,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4420,7 +4420,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4451,7 +4451,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4535,7 +4535,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4573,7 +4573,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4657,7 +4657,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4692,7 +4692,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/england"
+                    app:srcCompat="@drawable/england"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4776,7 +4776,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/newzealand"
+                    app:srcCompat="@drawable/newzealand"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4811,7 +4811,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/afghanistan"
+                    app:srcCompat="@drawable/afghanistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -4895,7 +4895,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/westindies"
+                    app:srcCompat="@drawable/westindies"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -4927,7 +4927,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/pakistan"
+                    app:srcCompat="@drawable/pakistan"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -5011,7 +5011,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/bangladesh"
+                    app:srcCompat="@drawable/bangladesh"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -5042,7 +5042,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/srilanka"
+                    app:srcCompat="@drawable/srilanka"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -5126,7 +5126,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/india"
+                    app:srcCompat="@drawable/india"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"
@@ -5156,7 +5156,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/australia"
+                    app:srcCompat="@drawable/australia"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"/>
@@ -5240,7 +5240,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/southafrica"
+                    app:srcCompat="@drawable/southafrica"
                     android:padding="8dp"
                     android:scaleType="fitStart"
                     android:layout_weight="1"

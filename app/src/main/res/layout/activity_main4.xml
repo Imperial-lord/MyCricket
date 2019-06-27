@@ -1,0 +1,101 @@
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/backlol"
+        android:scaleType="centerCrop"
+        android:id="@+id/helmet"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:id="@+id/user"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/trans"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="Username"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#000"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:id="@+id/user1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:id="@+id/fav"
+        android:layout_below="@id/user"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/teamicon"
+            android:scaleType="centerCrop"
+            />
+
+
+        <Spinner
+            android:id="@+id/fav1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#000"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ICC CRICKET WC 2019"
+        android:fontFamily="monospace"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        />
+
+
+
+</RelativeLayout>

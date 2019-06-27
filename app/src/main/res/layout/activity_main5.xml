@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/splash"
+        android:scaleType="fitXY"
+        android:layout_above="@id/start"
+        />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="START QUIZ"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="#000"
+        android:textAlignment="center"
+        android:onClick="intentfunc"
+        />
+
+
+</RelativeLayout>
+

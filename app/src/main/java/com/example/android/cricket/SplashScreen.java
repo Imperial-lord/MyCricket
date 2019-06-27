@@ -1,14 +1,11 @@
 package com.example.android.cricket;
 
-import android.app.DownloadManager;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.widget.ProgressBar;
-import android.os.Handler;
-import android.support.v4.app.FragmentActivity;
 
 
 import com.android.volley.Request;
@@ -17,8 +14,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.android.cricket.Main2Activity;
-import com.example.android.cricket.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Cricket</string>
+    <string-array name="planets_array">
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>South Africa</item>
+        <item>New Zealand</item>
+        <item>Australia</item>
+        <item>England</item>
+        <item>West Indies</item>
+        <item>Sri Lanka</item>
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+    </string-array>
     <string name="title_activity_splash_screen">SplashScreen</string>
 </resources>

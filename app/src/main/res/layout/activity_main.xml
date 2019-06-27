@@ -13,6 +13,7 @@
         android:orientation="horizontal"
         android:background="#1A237E"
         android:id="@+id/buttons"
+        android:backgroundTint="#fff"
         >
 
         <Button
@@ -23,9 +24,15 @@
             android:textColor="#fff"
             android:fontFamily="monospace"
             android:padding="4dp"
-            android:backgroundTint="#1A237A"
+            android:backgroundTint="#000"
             android:id="@+id/fixtures"
             />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buttons"
+            android:background="#1A237E"/>
 
 
         <Button
@@ -36,9 +43,14 @@
             android:textColor="#fff"
             android:fontFamily="monospace"
             android:padding="4dp"
-            android:backgroundTint="#1A237A"
+            android:backgroundTint="#000"
             android:id="@+id/pts"/>
 
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buttons"
+            android:background="#1A237E"/>
 
         <Button
             android:layout_width="0dp"
@@ -48,18 +60,84 @@
             android:textColor="#fff"
             android:fontFamily="monospace"
             android:padding="4dp"
-            android:backgroundTint="#1A237A"
+            android:backgroundTint="#000"
             android:id="@+id/news"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/buttons"
+        android:id="@+id/lineview"
+        android:background="#1A237E"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:id="@+id/buttons1"
+        android:layout_below="@id/lineview"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SCORECARDS"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#000"
+            android:id="@+id/scorecards"
+            />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buttons"
+            android:background="#1A237E"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FAVORITE TEAM"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#000"
+            android:id="@+id/favoriteteam"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buttons"
+            android:background="#1A237E"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="QUIZ"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:padding="4dp"
+            android:backgroundTint="#000"
+            android:id="@+id/quizgame"/>
 
     </LinearLayout>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ball1"
+        app:srcCompat="@drawable/ball1"
         android:scaleType="fitXY"
         android:id="@+id/image"
-        android:layout_below="@id/buttons"
+        android:layout_below="@id/buttons1"
         />
 
     <TextView

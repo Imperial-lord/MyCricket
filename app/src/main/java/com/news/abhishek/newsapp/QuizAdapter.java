@@ -13,6 +13,8 @@ import android.widget.TextView;
 import com.example.android.cricket.R;
 
 import java.util.List;
+import com.bumptech.glide.Glide;
+import com.example.android.cricket.SplashScreen;
 
 public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.QuizViewHolder>
 {
@@ -42,7 +44,9 @@ public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.QuizViewHolder
 
         holder.ques.setText(quiz.getQues());
         holder.answer.setText(quiz.getOption1());
-        holder.imageView.setImageDrawable(mCtx.getResources().getDrawable(quiz.getImage()));
+        Glide.with(mCtx).load(mCtx.getResources().getDrawable(quiz.getImage())).into(holder.imageView);
+
+        //Glide.with(context).load(SplashScreen.newsList.get(position).getNewsImageUrl()).into(holder.imgView);
     }
 
     @Override

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/devback"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="insideOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/p1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="{dev} ABOUT DEVELOPERS"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="monospace"
+        />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/p2"
+        android:layout_below="@id/p1"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/anjali"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Anjali Soni, ECE IIT Guwahati.\n\nShe an Android Developer, Coding enthusiast, Web Developer, with sound concepts of Machine learning in Python. She has knowledge of several progrmming languages, and is altogether an enthusiastic learner."
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:fontFamily="monospace"
+            android:padding="8dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff"
+            android:layout_marginBottom="40dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/p3"
+        android:layout_below="@id/p2"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ab"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AB Satyaprakash, MnC IIT Guwahati.\n\nA Coding Geek and Android Developer. He has interest in programming and has a sound knowledge of Java and several other languages. Also an Astrophysics lover, he has excellent creative skils."
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:fontFamily="monospace"
+            android:padding="8dp"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

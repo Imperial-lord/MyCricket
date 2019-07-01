@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/devback"
+    android:padding="8dp"
+    >
+
+
+    <ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:fadeScrollbars="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT APP"
+        android:background="#000"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:id="@+id/para1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para1"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:text="WC Cricket 2019, originally called Live Scores App, is a android project developed for the Android Application development contest organised by Coding Club, IIT Guwahati:"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/para2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para2"
+        android:text="'Code for the game 2019'"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/para3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para3"
+        android:paddingTop="10dp"
+        android:text="Description:"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#000"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/para4"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para4"
+        android:padding="5dp"
+        android:text="This application is dedicated to providing live scores, fixtures, news and other stuffs regarding the Cricket World Cup 2019. And guess what! We have a trivia section added for an awesome user experience! \nFind the project on GitHub at https://github.com/anjalisoni3655/codeforthegame2019_LiveScores"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/para5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para5"
+        android:paddingTop="10dp"
+        android:text="Directions:"
+        android:background="#000"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/para6"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para6"
+        android:padding="5dp"
+        android:text="The application consists of 6 sections:\n1.Fixtures (displaying the matches in order)\n2.Points Table (displaying the leaderboard)\n3.News (displaying updates about the WC2019)\n4.ScoreCards (displays the ongoing match details)\n5.Favorite Team (get details of your favorite teams here)\n6.Quiz/Trivia (how much of a worldcup geek are you?)"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:id="@+id/para7"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para7"
+        android:padding="5dp"
+        android:text="All of these are present as buttons on the main screen, so navigate your way through, and feel free to explore!"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/para8"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para8"
+        android:paddingTop="10dp"
+        android:text="Copyrights and Credits:"
+        android:fontFamily="monospace"
+        android:background="#000"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/para9"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para9"
+        android:paddingTop="5dp"
+        android:text="The pages being displayed in the Scorecards and Favorite Team are a copyright of"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/para10"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para10"
+        android:text="www.icccricketworldcup.com"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/para11"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para11"
+        android:text="Also we remain indebted to ESPN Cricket Info for the regular news updates about the matches"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/para12"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para12"
+        android:paddingTop="20dp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:text="This app has been developed by two students of IIT Guwahati. Please checkout their profiles in the About Developers section.\nHope you enjoy the app!\n"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/para13"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

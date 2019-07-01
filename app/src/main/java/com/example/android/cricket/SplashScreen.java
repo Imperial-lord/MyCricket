@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.view.Window;
 import android.widget.ProgressBar;
 
 
@@ -35,25 +36,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressbar);
-        progressStatus = 0;
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while(progressStatus < 100){
-                    // Update the progress status
-                    progressStatus +=1;
-
-                    // Try to sleep the thread for 20 milliseconds
-                    try{
-                        Thread.sleep(1);
-                    }catch(InterruptedException e){
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }).start();
 
         rq = Volley.newRequestQueue(this);
         jsonParse();

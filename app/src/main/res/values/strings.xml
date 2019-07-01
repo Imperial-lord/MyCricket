@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cricket</string>
+    <string name="app_name">WC 2019</string>
     <string-array name="planets_array">
         <item>India</item>
         <item>Pakistan</item>
@@ -13,4 +13,7 @@
         <item>Bangladesh</item>
     </string-array>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
 </resources>

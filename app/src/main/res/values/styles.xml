@@ -9,12 +9,6 @@
     </style>
 
 
-    <style name="aboutDev" parent="AppTheme">
-        <item name="colorPrimaryDark">#1bbc9b</item>
-        <item name="colorPrimary">#1bbc9b</item>
-
-    </style>
-
     <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
         <item name="buttonStyle">
             @style/Widget.AppCompat.Button.Borderless.Colored
@@ -26,10 +20,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="ScoreCards" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#00BCD4</item>

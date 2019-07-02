@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/para6"
         android:padding="5dp"
-        android:text="The application consists of 6 sections:\n1.Fixtures (displaying the matches in order)\n2.Points Table (displaying the leaderboard)\n3.News (displaying updates about the WC2019)\n4.ScoreCards (displays the ongoing match details)\n5.Favorite Team (get details of your favorite teams here)\n6.Quiz/Trivia (how much of a worldcup geek are you?)"
+        android:text="The application consists of 6 sections:\n1.Fixtures (displaying the matches in order)\n2.Leader Board (displaying the points table)\n3.News (displaying updates about the WC2019)\n4.ScoreCards (displays the ongoing match details)\n5.Favorite Team (get details of your favorite teams here)\n6.Quiz/Trivia (how much of a worldcup geek are you?)"
         android:fontFamily="monospace"
         android:textColor="#000"
         android:id="@+id/para7"/>
